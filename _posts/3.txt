@@ -1,0 +1,11 @@
+echo "Welcome, James"
+export USER="James"
+export PS1="----"
+
+alias bashprofile="nano $HOME/.bash_profile"
+alias bashsource="source $HOME/.bash_profile"
+alias playground="cd Drive/Temporary/Command"
+
+alias ll="ls -la"
+
+export PATH=$PATH:/usr/local/lib/ruby/gems/1.9.1/gems/jekyll-2.5.2/bin
