@@ -22,4 +22,4 @@ export PATH=$PATH:/usr/local/lib/ruby/gems/1.9.1/gems/jekyll-2.5.2/bin
 
 {% endhighlight %}
 
-Codecademy is great, but combining it with Anki it grows to a profound toolset for learning web development. It is so fun learning it this way. You really should try it.
+Codecademy is great, but combining it with Anki they grow to a profound toolset for learning web development. It is so fun learning it this way. You really should try it.
