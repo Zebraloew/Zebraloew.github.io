@@ -1,10 +1,13 @@
----
-layout: page
-title: About
-permalink: /about/
----
-
-<div class="container">
+<!DOCTYPE html>
+<html lang="de">
+<head>
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet"/>
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<title>Jakob Malek — Impressum</title>
+</head>
+<body>
+ <div class="container">
  <div class="row">
      <div class="col-md-4">
 	<h1>Impressum</h1>
@@ -45,3 +48,8 @@ permalink: /about/
  </div> <!-- col-md-4 -->
  </div> <!-- row -->
  </div>	<!-- Container -->
+
+
+
+</body>
+</html>
