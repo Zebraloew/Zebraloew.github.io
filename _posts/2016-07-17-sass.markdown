@@ -9,3 +9,10 @@ Uh Yeah! I got a hardwired hyperlink into the footer-generator of jekyll. No big
 
 I am looking forward to learning sass for swagging my microsite really into deep space.
 Well, actually I started messing around with sass already. It’s ultra intuitive to me. I just redesigned my jekyll blog. This one here. Now it definitely looks bold!
+
+.
+.
+.
+.
+.
+.
