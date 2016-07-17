@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Getting down with sass"
+date:   2016-07-17 20:00:21 +0200
+categories: jekyll update
+---
+
+Uh Yeah! I got a hardwired hyperlink into the footer-generator of jekyll. No big deal … but Yeah! I am beginning to understand the workings of jekyll.
+
+I am looking forward to learning sass for swagging my microsite really into deep space.
+Well, actually I started messing around with sass already. It’s ultra intuitive to me. I just redesigned my jekyll blog. This one here. Now it definitely looks bold!

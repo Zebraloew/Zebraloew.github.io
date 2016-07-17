@@ -6,16 +6,17 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Zebraloew Coding Trip
-email: the.vhor@gmail.com
+title: Zebralöw Coding Trip
+email: mail@jakobmalek.com
 description: > # this means to ignore newlines until "baseurl:"
-  This blog is about my steps in becoming a web developer.
+
+  This blog is about my progress in becoming a web developer.
   I am a graphic designer and am good at coding aswell.
   My current steps are learning more about git, jekyll,
   the command line and soon sass.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://jakobmalek.com/jekyll" # the base hostname & protocol for your site
+url: "https://zebraloew.github.io" # the base hostname & protocol for your site
 twitter_username: JimmyFraktal
 github_username:  Zebraloew
 

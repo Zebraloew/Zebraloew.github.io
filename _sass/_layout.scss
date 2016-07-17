@@ -2,21 +2,26 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+       
 
+    //background-color: $grey-color-light;
+    //border-top: 1px solid $grey-color-shadow;
+    //border-bottom: 1px solid $grey-color-shadow;
+    min-height: 16px;
+    position: fixed;
     // Positioning context for the mobile navigation icon
-    position: relative;
+    //@include media-query($on-palm) {position: relative;}
 }
 
 .site-title {
-    font-size: 26px;
-    font-weight: 300;
-    line-height: 56px;
-    letter-spacing: -1px;
+    font-size: $minor-font-size;
+    line-height: 24px;
     margin-bottom: 0;
     float: left;
+    // Jake’s inserts
+    text-transform: $biggies-case;
+    letter-spacing: $biggies-lettering;
+    font-weight:    $biggies-bold;
 
     &,
     &:visited {
@@ -52,7 +57,7 @@
         text-align: right;
 
         .menu-icon {
-            display: block;
+            //display: block;
             float: right;
             width: 36px;
             height: 26px;
@@ -98,13 +103,18 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    border-top: 1px solid $grey-color-shadow;    
     padding: $spacing-unit 0;
+    background-color: $grey-color-light;
 }
 
 .footer-heading {
-    font-size: 18px;
+    color: white;
+    font-size: $small-font-size;
     margin-bottom: $spacing-unit / 2;
+    text-transform: $biggies-case;
+    letter-spacing: $biggies-lettering;
+    font-weight:    $biggies-bold;
 }
 
 .contact-list,
@@ -172,7 +182,14 @@
 }
 
 .page-heading {
-    font-size: 20px;
+    font-size: 144px;
+    text-transform: $biggies-case;
+    letter-spacing: $biggies-lettering;
+    font-weight:    $biggies-bold;
+    margin: 0 0 $more-spacing-unit 0;
+    @include media-query($on-laptop) {
+            font-size: 28px;
+    }
 }
 
 .post-list {
@@ -181,17 +198,18 @@
 
     > li {
         margin-bottom: $spacing-unit;
+        
     }
 }
 
 .post-meta {
-    font-size: $small-font-size;
+    font-size: $tiny-font-size;
     color: $grey-color;
 }
 
 .post-link {
-    display: block;
-    font-size: 24px;
+    font-size: 16px;
+    padding-right: 16px;
 }
 
 
@@ -205,8 +223,10 @@
 
 .post-title {
     font-size: 42px;
-    letter-spacing: -1px;
     line-height: 1;
+    text-transform: $biggies-case;
+    font-weight:    $biggies-bold;
+    letter-spacing: $biggies-lettering;
 
     @include media-query($on-laptop) {
         font-size: 36px;
@@ -215,6 +235,8 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
+    
+
 
     h2 {
         font-size: 32px;
@@ -239,4 +261,34 @@
             font-size: 18px;
         }
     }
+ 
+}
+
+hr {
+    border: 1px dotted $grey-color-light;
+}
+
+.rss-subscribe {
+    font-size: $minor-font-size;
+}
+
+.footertext {
+    font-size: $minor-font-size;
+    line-height: $minor-line-height;
+    margin-top: 4px;
+}
+.post-index {
+    border: 4px solid $brand-color;
+    //border-radius: 5px;
+    padding:6px 0 0 16px;
+    box-shadow: 0 1px 1px $grey-color-light;
+    
+}
+
+.topspacing{
+    margin-top: $more-spacing-unit;
+}
+
+.home {    
+    margin: 0 0 0 0;
 }

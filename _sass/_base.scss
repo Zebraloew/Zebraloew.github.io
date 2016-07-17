@@ -3,7 +3,7 @@
  */
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
+dl, dd, ol, ul, figure, li {
     margin: 0;
     padding: 0;
 }
@@ -82,7 +82,11 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: $base-font-weight;
+    font-weight: $bold-font-weight;
+    text-transform: $biggies-case;
+    letter-spacing: $biggies-lettering;
+    font-weight:    $biggies-bold;
+    line-height:    1;
 }
 
 
@@ -99,8 +103,7 @@ a {
     }
 
     &:hover {
-        color: $text-color;
-        text-decoration: underline;
+        color: $second-color;
     }
 }
 
@@ -114,7 +117,7 @@ blockquote {
     border-left: 4px solid $grey-color-light;
     padding-left: $spacing-unit / 2;
     font-size: 18px;
-    letter-spacing: -1px;
+    letter-spacing: 0px;
     font-style: italic;
 
     > :last-child {

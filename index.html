@@ -3,17 +3,23 @@ layout: default
 ---
 
 <div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
+  
+  <h1 class="page-heading">Zebra<br/>löw <br/>Coding <br/>Trip</h1>
+  
+  <ul class="post-list topspacing">
     {% for post in site.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
+        
+        <div class="post-index">
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            
         </h2>
+        </div>
+        
+          
       </li>
     {% endfor %}
   </ul>

@@ -7,26 +7,56 @@
 
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
+$brot-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
 $base-font-weight: 400;
+$bold-font-weight: bold;
+
+$base-font-size:   16px;
+$minor-font-size:  12px; 
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$tiny-font-size:   8px;
 
-$spacing-unit:     30px;
+$biggies-case:          uppercase;
+$biggies-lettering:     5px;
+$biggies-bold:          bold;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$base-line-height: 1.8;
+$minor-line-height: 2;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$spacing-unit:     24px;
+$more-spacing-unit: $spacing-unit*1.618;
+
+$text-color:       #0B1123;
+$background-color: #FFF;
+$brand-color:      #5EC6E8;
+$second-color:     #CCC57B;
+
+$grey-color:         #A19EA7;
+$grey-color-light:   lighten($grey-color, 28%);
+$grey-color-dark:    darken($grey-color, 38%);
+$grey-color-shadow:  lighten($grey-color, 6%);
+
+$gold:              #CCC57B;
+$grey:              #EBE8EA;
+$darkgrey:          #A19EA7;
+$black:             #0B1123;
+$cyan:              #5EC6E8;
+$blue:              #1B77CF;
+$pink:              #F09DD5;
+$yellow:            #FEED8A;
+$white:             #FFF;
+
+
+
 
 // Width of the content area
-$content-width:    800px;
+$content-width:    700px;
+//$post-width:       500px;
 
 $on-palm:          600px;
-$on-laptop:        800px;
+$on-laptop:        700px;
 
 
 
