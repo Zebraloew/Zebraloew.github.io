@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Github Login und China"
+title:  "Github Login and China"
 date:   2017-02-19 12:20:45 +0200
 categories: 
 ---
